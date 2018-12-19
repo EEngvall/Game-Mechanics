@@ -16,7 +16,6 @@ def summon_hero():
         print(new_monster)
         print()
         monster_box.append(new_monster);
-        print(monster_box)
         
     elif summon_chance <= 200:
         print('Legendary Summon!')
