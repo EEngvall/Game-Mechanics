@@ -8,7 +8,7 @@ def summon_hero():
     summon_chance = (random.randint(1, 1000))
     mythic_heroes = ['', 'Mythic 2', 'Mythic 3']
     legendary_heroes = ['Legendary 1', 'Legendary 2', 'Legendary 3']
-    epic_heroes = ['Trash', 'More Trash', 'Epic Trash']
+    epic_heroes = ['Epic 1', 'Epic 2', 'Epic 3']
 
     if summon_chance <= 17:
         print('Mythic Summon!')
